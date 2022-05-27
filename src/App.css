@@ -1,0 +1,68 @@
+.container {
+  min-width: 400px;
+  padding: 18px;
+  border: solid 2px grey;
+  min-height: 200px;
+  max-width: fit-content;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background: black;
+  /* border-radius: 2px; */
+  border: solid px;
+  color: #ffffff;
+  padding: 6px 15px;
+  border: solid 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input {
+  background: #f2f2f2;
+  font-size: 12px;
+  padding: 0px 10px;
+  margin-top: 4px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.reminder {
+  border-left: solid green 5px;
+}
+
+.cross{
+  color: red;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.input-form {
+  padding: 5px;
+  width: 95%;
+}
+
+.footer {
+  margin: 5px !important;
+  padding-top: 10px;
+}
+
+.searchBar {
+  width: 94%;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.detailBox {
+  font-size: 12px;
+  padding: 3px 5px;
+    background: #ebebeb;
+    margin: 4px;
+}
