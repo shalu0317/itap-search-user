@@ -13,9 +13,10 @@ const UserItem = ({ user, toggleuser }) => {
         </div>
          {showUserDetails ? <div className='detailBox'>
          <div style={{ margin: '10px 5px' }}>
-                <span><b>Email: </b>{user.email}</span><br/>
-                <span><b>Website: </b>{user.website}</span><br/>
-                <span><b>Phone: </b>{user.phone}</span>
+         
+                <span ><b>Email: <a href = {`mailto: ${user.email}`}>{user.email}</a></b></span><br/>
+                <span><b>Website: <a href = {`https://${user.website}`} target="_blank" rel="noreferrer">{user.website}</a></b></span><br/>
+                <span><b>Phone: <a href = {`tel: ${user.phone}`}>{user.phone}</a></b></span>
             </div>
          </div> : ''}
          </div>
